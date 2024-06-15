@@ -1,10 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --primary-color: hsl(357, 100%, 41%);
+  --green: hsl(137, 100%, 41%);
+  --cyan: hsl(175, 90%, 52%);
+  --off-white: hsl(0, 0%, 98%);
+  --grey: hsl(0, 0%, 50%);
+  --off-black: hsl(0, 0%, 28%);
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: "roboto";
+  box-sizing: border-box;
 }
+
 body {
+  background-color: hsl(0, 0%, 20%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
